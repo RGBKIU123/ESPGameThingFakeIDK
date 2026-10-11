@@ -1,0 +1,97 @@
+ESP32 NODE MAPPING - Hack Into PCell Project
+=============================================
+
+This file documents the WiFi SSID to challenge mapping for all ESP32 nodes.
+
+NODE 3 (earth)
+------------------
+Challenge: challenge14-cyber-defense (Memory Matrix)
+Flag: FLAG{M3M0RY_M4TR1X_M4ST3R_2024}
+Next WiFi: fire
+File: node3/node3.ino
+
+NODE 4 (fire)
+------------------
+Challenge: challenge17-network-scanner (Network Memory Match)
+Flag: FLAG{NETWORK_MAPPED_2024}
+Next WiFi: metal
+File: node4/node4.ino
+
+NODE 5 (metal)
+------------------
+Challenge: challenge18-crypto-puzzle (Letter Shift Decoder)
+Flag: FLAG{L3TT3R_SH1FT_M4ST3R}
+Next WiFi: wood
+File: node5/node5.ino
+
+NODE 6 (wood)
+------------------
+Challenge: challenge19-steganography (Hidden Message Hunt)
+Flag: FLAG{HIDDEN_IN_PLAIN_SIGHT_2024}
+Next WiFi: void
+File: node6/node6.ino
+
+NODE 7 (void)
+------------------
+Challenge: challenge21-xss-playground (Word Scramble)
+Flag: FLAG{WORD_MASTER_2024}
+Next WiFi: lightning
+File: node7/node7.ino
+
+NODE 8 (lightning)
+------------------
+Challenge: challenge22-jwt-decoder (Code Breaker)
+Flag: FLAG{CODE_BREAKER_2024}
+Next WiFi: ice
+File: node8/node8.ino
+
+NODE 9 (ice)
+------------------
+Challenge: challenge23-buffer-overflow (Stack Builder)
+Flag: FLAG{STACK_MASTER_2024}
+Next WiFi: light
+File: node9/node9.ino
+
+NODE 10 (light)
+-------------------
+Challenge: challenge24-forensics-disk (File Detective)
+Flag: FLAG{FILE_DETECTIVE_2024}
+Next WiFi: shadow
+File: node10/node10.ino
+
+NODE 11 (shadow)
+-------------------
+Challenge: challenge25-log-analysis (Pattern Recognition)
+Flag: FLAG{PATTERN_SPOTTER_2024}
+Next WiFi: spirit
+File: node11/node11.ino
+
+NODE 12 (spirit)
+-------------------
+Challenge: challenge26-wifi-cracker (WiFi Memory Game)
+Flag: FLAG{MEMORY_CHAMPION_2024}
+Next WiFi: ether
+File: node12/node12.ino
+
+NODE 13 (ether)
+-------------------
+Challenge: challenge27-malware-analysis (Virus Scanner)
+Flag: FLAG{VIRUS_HUNTER_2024}
+Next WiFi: aether
+File: node13/node13.ino
+
+NODE 14 (aether) - FINAL BOSS
+---------------------------------
+Challenge: challenge28-final-boss (Ultimate Quiz)
+Flag: FLAG{ULTIMATE_CHAMPION_2024}
+Next WiFi: NONE (This is the final challenge!)
+File: node14/node14.ino
+
+All passwords: projectcell
+
+NOTES:
+------
+- Each .ino file contains the full HTML/CSS/JavaScript for the challenge
+- HTML is stored in PROGMEM to save RAM on ESP32
+- Each node (except node14) displays the next WiFi SSID and password after completion
+- Node14 congratulates players on completing the entire treasure hunt
